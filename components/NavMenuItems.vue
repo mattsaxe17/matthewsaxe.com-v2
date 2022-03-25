@@ -5,6 +5,7 @@
         <nuxt-link to="/#about" class="menu-link"><span class="prefix">00.&nbsp;</span>About</nuxt-link>
         <nuxt-link to="/#projects" class="menu-link"><span class="prefix">01.&nbsp;</span>Projects</nuxt-link>
         <nuxt-link to="/#contact" class="menu-link"><span class="prefix">02.&nbsp;</span>Contact</nuxt-link>
+        <nuxt-link to="" class="menu-link"><span class="prefix">03.&nbsp;</span>NFT&nbsp;<span class="postfix">(Coming Soon!)</span></nuxt-link>
         <!-- <nuxt-link to="/blog">Blog</nuxt-link> -->
       </div>
       <v-switch v-model="$vuetify.theme.dark" inset color="#e4602f">
@@ -50,6 +51,11 @@ nav {
         &::after {
           content: ' ';
         }
+      }
+
+      .postfix {
+        font-size: 12px;
+        color: var(--v-accent-lighten3);
       }
     }
   }
