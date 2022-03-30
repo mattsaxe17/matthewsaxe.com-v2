@@ -5,8 +5,8 @@
         <nuxt-link to="/#about" class="menu-link"><span class="prefix">00.&nbsp;</span>About</nuxt-link>
         <nuxt-link to="/#projects" class="menu-link"><span class="prefix">01.&nbsp;</span>Projects</nuxt-link>
         <nuxt-link to="/#contact" class="menu-link"><span class="prefix">02.&nbsp;</span>Contact</nuxt-link>
-        <nuxt-link to="" class="menu-link"><span class="prefix">03.&nbsp;</span>NFT&nbsp;<span class="postfix">(Coming Soon!)</span></nuxt-link>
-        <!-- <nuxt-link to="/blog">Blog</nuxt-link> -->
+        <a href="https://nft.matthewsaxe.com" class="menu-link"><span class="prefix">03.&nbsp;</span>NFT&nbsp;<span class="postfix">(Coming Soon!)</span></a>
+        <!-- <nuxt-link to="/blog">Blog</nuxt-link> (someday baby) -->
       </div>
       <v-switch v-model="$vuetify.theme.dark" inset color="#e4602f">
         <template #label>
