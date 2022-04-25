@@ -15,11 +15,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'I\'m a freelance software engineer building fast, reponsive websites and applications in the Wilkes-Barre, PA area. My inbox is open, let\'s see what I can build for you.' },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: 'og:image', content: 'https://matthewsaxe.com/personal-site.png' },
-      { property: 'og:image:type', content: 'image/png' },
+      { property: 'og:image', content: 'https://matthewsaxe.com/personal-site.jpg' },
       { property: 'og:description', content: 'I\'m a freelance software engineer building fast, reponsive websites and applications in the Wilkes-Barre, PA area. My inbox is open, let\'s see what I can build for you.' },
-      { property: 'og:title', content: 'Matthew Saxe' },
+      { property: 'og:title', content: 'Matthew Saxe - Software Engineer' },
       { property: 'og:url', content: 'https://matthewsaxe.com' },
+      { property: 'og:type', content: 'website'}
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -35,8 +35,6 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
