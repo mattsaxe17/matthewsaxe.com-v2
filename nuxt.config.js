@@ -16,10 +16,10 @@ export default {
       { hid: 'description', name: 'description', content: 'I\'m a freelance software engineer building fast, reponsive websites and applications in the Wilkes-Barre, PA area. My inbox is open, let\'s see what I can build for you.' },
       { name: 'format-detection', content: 'telephone=no' },
       { property: 'og:image', content: 'https://matthewsaxe.com/personal-site.jpg' },
-      { property: 'og:image:type', content: 'image/jpg' },
       { property: 'og:description', content: 'I\'m a freelance software engineer building fast, reponsive websites and applications in the Wilkes-Barre, PA area. My inbox is open, let\'s see what I can build for you.' },
       { property: 'og:title', content: 'Matthew Saxe - Software Engineer' },
       { property: 'og:url', content: 'https://matthewsaxe.com' },
+      { property: 'og:type', content: 'website'}
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
