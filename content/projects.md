@@ -15,6 +15,6 @@
   A sleek, modern watch face for your FitBit Sense or Versa 3. Featuring step counter, analog and digital times, heart rate monitor, date display, and battery level indicator.
 </project>
 
-<project name="matthewsaxe.com" github-link="https://github.com/mattsaxe17/personal-site" image="/personal-site.png" :stack="['Vue', 'Nuxt', 'Sass', 'TypeScript']">
+<project name="matthewsaxe.com" github-link="https://github.com/mattsaxe17/personal-site" image="/personal-site.jpg" :stack="['Vue', 'Nuxt', 'Sass']">
   My personal site. Enough said.
 </project>
