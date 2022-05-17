@@ -25,10 +25,8 @@ export default Vue.extend({
   data() {
     return {
       links: [
-        { label: 'About', href: '/#about' },
-        { label: 'Projects', href: '/#projects' },
-        { label: 'Contact', href: '/#contact' },
-        { label: 'NFT', href: 'https://nft.matthewsaxe.com', postfix: '(Coming Soon!)', external: true },
+        { label: 'Home', href: '/' },
+        { label: 'About Me', href: '/#about' },
       ],
     };
   },

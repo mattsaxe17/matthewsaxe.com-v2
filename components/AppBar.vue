@@ -7,7 +7,7 @@
 
       <v-spacer />
 
-      <nav-menu :nav-drawer="navDrawer" @toggleNavDrawer="toggleNavDrawer" />
+      <nav-menu :nav-drawer="navDrawer" @toggleNavDrawer="toggleNavDrawer" :links="links" />
     </div>
 
     <v-navigation-drawer v-model="navDrawer" class="d-md-none" right fixed>
@@ -23,6 +23,11 @@
 <script>
 export default {
   name: 'AppBar',
+  props: {
+    links: {
+      type: Array,
+    },
+  },
   data() {
     return {
       scrollPos: 0,
