@@ -3,7 +3,7 @@
   A fast, responsive site for The Villas at Hidden Acres living community. It was built using React and Gatsby, and has content delivery through Contentful's content API. This allows the client to dynamically update site content without changing code.
 </project>
 
-<project name="Ideal Strength Calculator" link="http://idealstrengthcalculator.com/" image="/isc.png" :stack="['Vanilla HTML, CSS, and JavaScript']">
+<project name="Ideal Strength Calculator" link="http://idealstrengthcalculator.com/" image="/isc.png" :stack="['Vue', 'Nuxt', 'Sass']">
   How much should I be able to bench press? Find out with Ideal Strength Calculator, an easy way to discover your relative strength between several exercises.
 </project>
 
@@ -15,6 +15,6 @@
   A sleek, modern watch face for your FitBit Sense or Versa 3. Featuring step counter, analog and digital times, heart rate monitor, date display, and battery level indicator.
 </project>
 
-<project name="matthewsaxe.com" github-link="https://github.com/mattsaxe17/personal-site" image="/personal-site.png" :stack="['Vue', 'Nuxt', 'Sass', 'TypeScript']">
+<project name="matthewsaxe.com" github-link="https://github.com/mattsaxe17/personal-site" image="/personal-site.jpg" :stack="['Vue', 'Nuxt', 'Sass']">
   My personal site. Enough said.
 </project>
