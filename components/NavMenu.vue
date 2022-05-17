@@ -5,7 +5,7 @@
     </div>
 
     <div id="mobile-menu" class="d-md-none">
-      <img src="/menu.svg" alt="menu icon" @click="$emit('toggleNavDrawer')" />
+      <img class="icon" src="/menu.svg" alt="menu icon" @click="$emit('toggleNavDrawer')" />
     </div>
   </div>
 </template>
@@ -19,12 +19,12 @@ export default Vue.extend({
   },
   props: {
     navDrawer: {
-      type: Boolean
+      type: Boolean,
     },
     links: {
-      type: Array
-    }
-  }
+      type: Array,
+    },
+  },
 });
 </script>
 
@@ -33,13 +33,11 @@ export default Vue.extend({
   height: 50%;
   display: flex;
   align-items: center;
+}
 
-  #mobile-menu {
-    height: 100%;
-    
-    img {
-      height: 1.5em;
-    }
+#mobile-menu {
+  .icon {
+    height: 1.5em;
   }
 }
 </style>
