@@ -10,10 +10,10 @@
       <nav-menu :nav-drawer="navDrawer" @toggleNavDrawer="toggleNavDrawer" :links="links" />
     </div>
 
-    <v-navigation-drawer v-model="navDrawer" class="d-md-none" right fixed>
+    <v-navigation-drawer v-model="navDrawer" class="d-md-none" right fixed :width="300">
       <div id="mobile-menu-drawer-content">
         <img class="icon" src="/x.svg" @click="toggleNavDrawer" />
-        <nav-menu-items mobile />
+        <nav-menu-items :links="links" mobile />
       </div>
       <social-bar position="right" />
     </v-navigation-drawer>
@@ -74,6 +74,7 @@ export default {
     position: fixed;
     top: 2em;
     right: 2em;
+    height: 1.5em;
   }
 }
 
