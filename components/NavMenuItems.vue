@@ -5,7 +5,8 @@
         <nuxt-link to="/#about" class="menu-link"><span class="prefix">00.&nbsp;</span>About</nuxt-link>
         <nuxt-link to="/#projects" class="menu-link"><span class="prefix">01.&nbsp;</span>Projects</nuxt-link>
         <nuxt-link to="/#contact" class="menu-link"><span class="prefix">02.&nbsp;</span>Contact</nuxt-link>
-        <a href="https://nft.matthewsaxe.com" class="menu-link"><span class="prefix">03.&nbsp;</span>NFT&nbsp;<span class="postfix">(Coming Soon!)</span></a>
+        <nuxt-link to="/blog" class="menu-link"><span class="prefix">03.&nbsp;</span>Blog</nuxt-link>
+        <a href="https://nft.matthewsaxe.com" class="menu-link"><span class="prefix">04.&nbsp;</span>NFT&nbsp;<span class="postfix">(Coming Soon!)</span></a>
         <!-- <nuxt-link to="/blog">Blog</nuxt-link> (someday baby) -->
       </div>
       <v-switch v-model="$vuetify.theme.dark" inset color="#e4602f">
@@ -43,6 +44,7 @@ nav {
       text-decoration: none;
       display: flex;
       align-items: center;
+      transition: padding .1s ease-in-out;
 
       .prefix {
         font-weight: bold;
@@ -56,6 +58,11 @@ nav {
       .postfix {
         font-size: 12px;
         color: var(--v-accent-lighten3);
+      }
+
+      &:hover {
+        color: var(--v-accent-lighten3);
+        padding-bottom: .25em;
       }
     }
   }
