@@ -17,7 +17,7 @@
 <script>
 import Vue from 'vue';
 import Watermark from '~/components/Watermark.vue';
-import AppBar from '../components/AppBar.vue';
+import AppBar from '~/components/AppBar.vue';
 
 export default Vue.extend({
   name: 'DefaultLayout',
@@ -28,6 +28,7 @@ export default Vue.extend({
         { label: 'About', href: '/#about' },
         { label: 'Projects', href: '/#projects' },
         { label: 'Contact', href: '/#contact' },
+        { label: 'Blog', href: '/blog' },
         { label: 'NFT', href: 'https://nft.matthewsaxe.com', postfix: '(Coming Soon!)', external: true },
       ],
     };
