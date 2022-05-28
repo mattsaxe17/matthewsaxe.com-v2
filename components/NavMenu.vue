@@ -23,6 +23,7 @@ export default Vue.extend({
     },
     links: {
       type: Array,
+      default: () => []
     },
   },
 });

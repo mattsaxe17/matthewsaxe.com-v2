@@ -10,14 +10,14 @@
 
     <social-bar position="right" fixed desktop-only />
 
-    <watermark>Saxe</watermark>
+    <watermark>Blog</watermark>
   </v-app>
 </template>
 
 <script>
 import Vue from 'vue';
 import Watermark from '~/components/Watermark.vue';
-import AppBar from '../components/AppBar.vue';
+import AppBar from '~/components/AppBar.vue';
 
 export default Vue.extend({
   name: 'DefaultLayout',
@@ -45,7 +45,8 @@ export default Vue.extend({
   body {
     #page-content {
       z-index: 1;
-      padding-top: 2em;
+      padding-top: 8em;
+
     }
   }
 
