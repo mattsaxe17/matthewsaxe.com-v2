@@ -19,6 +19,10 @@
   A fun widget for your iPhone that displays a random dad joke. This was made possible with Scriptable which allows you to write custom widgets using javascript.
 </project>
 
+<project name="breezy.js" github-link="https://github.com/mattsaxe17/breezyjs" image="/breezyjs.png" :stack="['Javascript']">
+  A javascript library built for making common tasks easier and more readable.
+</project>
+
 <project name="matthewsaxe.com" github-link="https://github.com/mattsaxe17/personal-site" image="/personal-site.jpg" :stack="['Vue', 'Nuxt', 'Sass']">
   My personal site. Enough said.
 </project>
