@@ -1,11 +1,3 @@
----
-textCyclerOptions:
-  - software
-  - websites
-  - apps
-  - experiences
----
-
 # Hello, I'm
 ## Matt Saxe.
 
