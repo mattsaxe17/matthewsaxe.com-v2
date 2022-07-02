@@ -15,6 +15,10 @@
   A sleek, modern watch face for your FitBit Sense or Versa 3. Featuring step counter, analog and digital times, heart rate monitor, date display, and battery level indicator.
 </project>
 
+<project name="Dad Joke Widget" github-link="https://github.com/mattsaxe17/dad-joke-widget" image="/dad-jokes.png" :stack="['Javascript', 'Scriptable']">
+  A fun widget for your iPhone that displays a random dad joke. This was made possible with Scriptable which allows you to write custom widgets using javascript.
+</project>
+
 <project name="breezy.js" github-link="https://github.com/mattsaxe17/breezyjs" image="/breezyjs.png" :stack="['Javascript']">
   A javascript library built for making common tasks easier and more readable.
 </project>
