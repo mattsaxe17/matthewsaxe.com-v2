@@ -104,10 +104,15 @@ export default {
 
       a {
         text-decoration: none;
-        margin-right: 0.25em;
+        margin-right: 0.4em;
         padding: 0.4em;
         border-radius: 100%;
         backdrop-filter: blur(10px);
+        background-color: rgba(0,0,0,0.4);
+
+        i {
+          color: white;
+        }
       }
     }
   }
