@@ -29,7 +29,7 @@ export default Vue.extend({
         { label: 'Projects', href: '/#projects' },
         { label: 'Contact', href: '/#contact' },
         // { label: 'Blog', href: '/blog' },
-        // { label: 'NFT', href: 'https://nft.matthewsaxe.com', postfix: '(Coming Soon!)', external: true },
+        { label: 'NFT', href: 'https://nft.matthewsaxe.com', postfix: '(Coming Soon!)', external: true },
       ],
     };
   },
