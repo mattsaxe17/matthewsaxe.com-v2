@@ -8,13 +8,15 @@ This is my personal site, built using Vue.js, Nuxt, Sass, and Nuxt Content. If y
 To start building yours, just do the following:
 
 ```
-// Fork the repo
+1. // Fork the repo
 
-git clone git@github.com:YOUR_GITHUB_HANDLE/personal-site.git
+2. git clone git@github.com:YOUR_GITHUB_HANDLE/personal-site.git
 
-cd personal-site
+3. cd personal-site
 
-npm i
+4. npm i
+
+5. npm run dev
 ```
 
 Now you're good to go! Refer to the <a href="https://nuxtjs.org/">Nuxt</a> docs for help using the framework.
