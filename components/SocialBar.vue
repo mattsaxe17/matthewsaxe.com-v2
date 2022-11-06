@@ -26,7 +26,7 @@
       </a>
     </div>
     <div>
-      <a href="https://www.instagram.com/_mattsaxe_/" target="_blank">
+      <a href="https://www.instagram.com/matthew_saxe/" target="_blank">
         <v-icon>mdi-instagram</v-icon>
       </a>
     </div>
