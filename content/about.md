@@ -1,8 +1,10 @@
-Hello! My name is Matt and I have many passions. I love to workout, try new foods, and learn about new tech. One of those passions, though, is creating fast, beautiful, and sometimes complex software. From websites to FitBit watch faces, I love to test my skills and create something amazing. It all started in 11th grade, where I taught myself HTML and CSS in study hall!
 
-Nowadays, I work as a programmer and a freelance software engineer where I aim to build incredible websites for clients. My experience extends from front-end design to servers and databases, and I love a challenge. Check out my <m-link new-tab href="https://github.com/mattsaxe17">Github</m-link> to see what I'm up to!
 
-I love to discuss cryptocurrency, blockchain, data structures, NFTs, and anything software. Reach out however you'd like - I'd love to talk.
+If you know me, you know I have long list of interests. I'm passionate about fitness and martial arts, read often, and like to cook. As you probably guessed, I also have a deep passion for writing software. From websites to FitBit watch faces, I am passionate about problem solving through the medium of code. It all started in 11th grade, where I taught myself HTML, CSS, and Javascript in study hall...
+
+These days, I am a software engineer both professionally and as a freelancer. My experience extends from front-end design to servers and databases, and I love working with complex math, data structures, and algorithms. From simple websites to complex web apps, check out my <m-link new-tab href="https://github.com/mattsaxe17">Github</m-link> to see what I'm up to!
+
+I'm always open to expand my network, so reach out however you'de like and I'd love to talk.
 
 <br />
 
@@ -16,21 +18,20 @@ I love to discuss cryptocurrency, blockchain, data structures, NFTs, and anythin
   - Web apps
   - Web security
   - System design
-  - Wix sites
 
   <br />
   <br />
 
   #### What I've been working with lately:
 
-  - JavaScript
-  - Vue.js
-  - Node.js
+  - Typescript
+  - Vue
   - React
-  - Nuxt
+  - Nuxt.js/Next.js
   - Sass
   - .NET MVC
   - SQL Server
+  - Strapi
 
   </div>
 
