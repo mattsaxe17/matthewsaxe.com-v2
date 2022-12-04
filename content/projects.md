@@ -27,5 +27,5 @@
 </project>
 
 <project name="matthewsaxe.com" github-link="https://github.com/mattsaxe17/personal-site" image="/personal-site.jpg" :stack="['Vue', 'Nuxt', 'Sass']">
-  My personal site. Enough said.
+  My personal site. All the code is available for free on Github.
 </project>
