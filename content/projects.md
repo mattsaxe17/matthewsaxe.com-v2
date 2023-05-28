@@ -1,5 +1,5 @@
 <project name="The Go-Getters" link="https://thegogetters.co/" image="/the-go-getters.png" :stack="['React', 'Next', 'Tyescript', 'Strapi']">
-  A site for my friends over at the Go Getters podcast. Built using React, Next, and Strapi, it allows the clients to add and edit episodes in the content manager, which are then served as static assets that generate at build-time. This allows for lightening fast loads and cheap hosting.
+  A site for my friends over at the Go Getters podcast. Built using React, Next, and Strapi, it allows the clients to add and edit episodes in the content manager, which are then served as static assets that generate at build-time. This allows for lightning fast loads and cheap hosting.
 </project>
 
 <project name="The Villas Homepage" link="https://the-villas-at-hidden-acres.netlify.app/" image="/the-villas.png" :stack="['React', 'Gatsby', 'Sass', 'Contentful']">
