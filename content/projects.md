@@ -2,7 +2,7 @@
   A site for my friends over at the Go Getters podcast. Built using React, Next, and Strapi, it allows the clients to add and edit episodes in the content manager, which are then served as static assets that generate at build-time. This allows for lightening fast loads and cheap hosting.
 </project>
 
-<project name="The Villas Homepage" link="https://thevillasathiddenacres.com/" image="/the-villas.png" :stack="['React', 'Gatsby', 'Sass', 'Contentful']">
+<project name="The Villas Homepage" link="https://the-villas-at-hidden-acres.netlify.app/" image="/the-villas.png" :stack="['React', 'Gatsby', 'Sass', 'Contentful']">
   A fast, responsive site for The Villas at Hidden Acres living community. It was built using React and Gatsby, and has content delivery through Contentful's content API. This allows the client to dynamically update site content without changing code.
 </project>
 
