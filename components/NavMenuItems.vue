@@ -6,17 +6,17 @@
           <nuxt-link v-if="!link.external" :to="link.href" class="menu-link">
             <span class="prefix">{{ `00${ind}`.slice(-2) }}.&nbsp;</span>
             {{ link.label }}&nbsp;
-            <span class="postfix">{{ link.postfix }}</span>
+            <span class="suffix">{{ link.suffix }}</span>
           </nuxt-link>
 
           <a v-else :href="link.href" class="menu-link">
             <span class="prefix">{{ `00${ind}`.slice(-2) }}.&nbsp;</span>
             {{ link.label }}&nbsp;
-            <span class="postfix">{{ link.postfix }}</span>
+            <span class="suffix">{{ link.suffix }}</span>
           </a>
         </div>
       </div>
-      
+
       <v-switch v-model="$vuetify.theme.dark" inset color="#e4602f">
         <template #label>
           <v-icon v-if="$vuetify.theme.dark">mdi-weather-night</v-icon>
@@ -69,7 +69,7 @@ nav {
           }
         }
 
-        .postfix {
+        .suffix {
           font-size: 12px;
           color: var(--v-accent-lighten3);
         }
