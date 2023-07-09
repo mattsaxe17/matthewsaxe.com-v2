@@ -34,7 +34,7 @@ export default {
   },
   computed: {
     episodes() {
-      return orderBy(this.feed.items, (episode) => new Date(episode.pubDate));
+      return orderBy(this.feed.items, (episode) => new Date() - new Date(episode.pubDate));
     },
   },
   async created() {
