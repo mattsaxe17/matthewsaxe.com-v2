@@ -1,4 +1,4 @@
-import colors from 'vuetify/es5/util/colors'
+import colors from 'vuetify/es5/util/colors';
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -13,15 +13,28 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'I\'m a freelance software engineer building fast, reponsive websites and applications in the Wilkes-Barre, PA area. My inbox is open, let\'s see what I can build for you.' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          "I'm a freelance software engineer building fast, reponsive websites and applications in the Wilkes-Barre, PA area. My inbox is open, let's see what I can build for you.",
+      },
       { name: 'format-detection', content: 'telephone=no' },
       { property: 'og:image', content: 'https://matthewsaxe.com/personal-site.jpg' },
-      { property: 'og:description', content: 'I\'m a freelance software engineer building fast, reponsive websites and applications in the Wilkes-Barre, PA area. My inbox is open, let\'s see what I can build for you.' },
+      {
+        property: 'og:description',
+        content:
+          "I'm a freelance software engineer building fast, reponsive websites and applications in the Wilkes-Barre, PA area. My inbox is open, let's see what I can build for you.",
+      },
       { property: 'og:title', content: 'Matthew Saxe - Software Engineer' },
       { property: 'og:url', content: 'https://matthewsaxe.com' },
-      { property: 'og:type', content: 'website'}
+      { property: 'og:type', content: 'website' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+
+  publicRuntimeConfig: {
+    rssFeedUrl: process.env.PODCAST_RSS_URL,
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -69,7 +82,7 @@ export default {
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
           background: '#252422',
-          anchor: '#CCC5B9'
+          anchor: '#CCC5B9',
         },
         light: {
           primary: '#EB5E28',
@@ -77,11 +90,11 @@ export default {
           secondary: '#ED6D3C',
           background: '#FFFCF2',
           anchor: '#252422',
-        }
+        },
       },
     },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-}
+};
